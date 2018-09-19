@@ -2,3 +2,14 @@
 .color {
 color: #0000FF;
 }
+.midbox {
+    border: 2px solid #000;
+    width: 100%;
+    margin: 0 auto;
+}
+/*On screens that are 600 px or less*/
+@media screen and (mid-width:600px ) {
+    body {
+    background-color:#fff;
+    }
+}
